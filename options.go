@@ -73,6 +73,8 @@ type Options struct {
 	LowestSpeedLimit              uint    `json:"lowest-speed-limit,omitempty,string"`
 	MaxConnectionPerServer        uint    `json:"max-connection-per-server,omitempty,string"`
 	MaxDownloadLimit              uint    `json:"max-download-limit,omitempty,string"`
+	MaxConcurrentDownloads        uint    `json:"max-concurrent-downloads,omitempty,string"`
+	MaxOverallDownloadLimit       uint    `json:"max-overall-download-limit,omitempty,string"`
 	MaxFileNotFound               uint    `json:"max-file-not-found,omitempty,string"`
 	MaxMMapLimit                  uint    `json:"max-mmap-limit,omitempty,string"`
 	MaxResumeFailureTries         uint    `json:"max-resume-failure-tries,omitempty,string"`
